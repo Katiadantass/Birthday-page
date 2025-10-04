@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pool Party</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/poolparty_logo.svg.webp" alt="Pool Party">
+            <p class="hero__text">
+                A festa de aniversário da Ana começa em
+            </p>
+            <span id="contador"></span>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Sunset Lounge – Barra da Tijuca, Rio de Janeiro
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 120,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        03/12/2025 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--dj">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">DJ</h2>
+                <p class="event__details__description">
+                    Prepare-se para uma noite inesquecível com um DJ ao vivo trazendo as melhores batidas para animar a Pool Party. A pista de dança estará à beira da piscina, criando a atmosfera perfeita para celebrar, dançar e se divertir até altas horas da madrugada.
+                </p>
+            </div>
+            <img class="event__image" src="./images/dj.png" alt="DJ da festa">
+        </div>   
+    </section>
+    <section class="event event--drinks event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Drinks</h2>
+                <p class="event__details__description">
+                    Uma seleção especial de drinks tropicais e refrescantes vai deixar sua noite ainda mais vibrante. Coquetéis coloridos, bebidas exclusivas e sabores irresistíveis estarão disponíveis para acompanhar o clima descontraído da festa à beira da piscina.
+                </p>
+            </div>
+            <img class="event__image" src="./images/drinks.png" alt="Drinks tropicais">
+        </div>   
+    </section>
+    <section class="event event--salgadinhos">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Salgadinhos</h2>
+                <p class="event__details__description">
+                    Para não deixar ninguém de estômago vazio, a festa contará com uma variedade deliciosa de salgadinhos. Coxinhas, bolinhas de queijo, mini pastéis e muito mais para acompanhar a energia contagiante da noite.
+                </p>
+            </div>
+            <img class="event__image" src="./images/salgadinhos.png" alt="Salgadinhos">
+        </div>   
+    </section>
+    <section class="event event--docinhos event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Docinhos</h2>
+                <p class="event__details__description">
+                    E para adoçar ainda mais a comemoração, não poderiam faltar os tradicionais docinhos de festa. Brigadeiros, beijinhos e outras delícias vão estar à disposição para completar o cardápio e deixar a sua Pool Party ainda mais especial.
+                </p>
+            </div>
+            <img class="event__image" src="./images/docinhos.png" alt="Docinhos de festa">
+        </div>   
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

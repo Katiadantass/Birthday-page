@@ -1,0 +1,34 @@
+@use '../variables';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &--primary {
+        color: #fff;
+        background: linear-gradient(90deg, variables.$blue1, variables.$pink);
+        
+        &:hover {
+            background: linear-gradient(90deg, variables.$pink, variables.$blue1);
+            transform: scale(1.05);
+        }
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+    
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+    }
+}
